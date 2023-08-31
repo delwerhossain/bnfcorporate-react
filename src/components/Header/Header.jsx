@@ -1,7 +1,7 @@
 import { useState } from "react";
 const Navbar = () => {
   return (
-    <nav className="grid gap-y-8">
+    <nav data-aos="flip-up" className="grid gap-y-8">
       <a
         href="https://care.thebandf.com/"
         target="_blank"

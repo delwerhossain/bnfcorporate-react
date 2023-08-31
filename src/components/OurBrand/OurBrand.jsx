@@ -1,4 +1,4 @@
-import { Globe } from "../Globe/Globe";
+import Globe from "../Globe/Globe";
 
 const OurBrand = () => {
   return (

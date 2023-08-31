@@ -16,7 +16,7 @@ const ErrorPage = () => {
   }, []);
 
   return (
-    <div>
+    <div className="error">
       <div className="about">
         <a
           className="bg_links social portfolio"
