@@ -19,7 +19,7 @@ const HeroSection = () => {
     <section
       data-aos="fade-up"
       data-aos-duration="2000"
-      id="#home"
+      id="home"
       className=" md:py-5 bg-neutral-100 lg:py-10"
     >
       <div className="gap-5">
