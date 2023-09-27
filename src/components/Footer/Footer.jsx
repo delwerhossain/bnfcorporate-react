@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer
-      data-aos="fade-up" 
+      data-aos="fade-up"
       className="footer-1 text-white bg-orange-600 py-8 sm:py-12"
     >
       <div className="container mx-auto px-4">
@@ -208,14 +208,8 @@ const Footer = () => {
               <em>All are MIT License</em>
             </p>
           </div>
-          <div className="px-4 flex justify-center items-center bg-white rounded-xl md:h-auto h-16 md:w-1/4 md:ml-auto mt-6 sm:mt-4 md:mt-0">
-            <img
-              className="h-12 w-auto sm:h-10"
-              src="/image/logo.webp"
-              alt=""
-              width={300}
-              height={200}
-            />
+          <div className="px-4 flex py-3 justify-center items-center bg-white rounded-xl h-auto md:w-1/4 md:ml-auto mt-6 sm:mt-4 md:mt-0">
+            <img className="" src="/image/logo.png" alt="" />
           </div>
         </div>
       </div>

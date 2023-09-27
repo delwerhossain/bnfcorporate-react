@@ -8,7 +8,7 @@ const OurBrand = () => {
       className="bg-white lg:mt-28 mb-20"
     >
       <h1 className="md:text-6xl text-slate-700 text-5xl font-bold text-center grid grid-col-1 justify-center my-12 ">
-        Our Brand
+        Our Brand.
         <span className="w-full border-b-2 border-solid border-orange-600 inline-block mt-3"></span>
       </h1>
       <div className="grid lg:grid-cols-4 grid-cols-2   gap-8 mx-auto justify-center w-4/5 md:w-full">

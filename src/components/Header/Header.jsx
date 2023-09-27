@@ -143,16 +143,14 @@ const Header = () => {
       {/* This example requires Tailwind CSS v2.0+ */}
       <div className="md:fixed relative z-10 w-full bg-white mb-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
-          <div className="flex justify-between items-center border-b-2 border-gray-100 py-4 md:justify-start md:space-x-10">
+          <div className="flex justify-between items-center border-b-2 border-gray-100 py-3 md:justify-start md:space-x-10">
             <div className="flex justify-start lg:w-0 lg:flex-1">
               <a href="#">
                 <span className="sr-only">Workflow</span>
                 <img
-                  className="h-8 w-auto sm:h-10"
-                  src="/image/logo.webp"
+                  className="h-20"
+                  src="/image/logo.png"
                   alt=""
-                  width={300}
-                  height={200}
                 />
               </a>
             </div>
@@ -548,7 +546,7 @@ const Header = () => {
                 <div>
                   <img
                     className="h-8 w-auto"
-                    src="/image/logo.webp"
+                    src="/image/logo.png"
                     alt="Workflow"
                     width={200}
                     height={150}
