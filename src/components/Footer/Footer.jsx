@@ -209,7 +209,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="px-4 flex py-3 justify-center items-center bg-white rounded-xl h-auto md:w-1/4 md:ml-auto mt-6 sm:mt-4 md:mt-0">
-            <img className="" src="/image/logo.png" alt="" />
+            <img className="" src="/image/logo.png" alt="bnf logo" />
           </div>
         </div>
       </div>
