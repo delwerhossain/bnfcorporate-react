@@ -1,23 +1,24 @@
+import "./styles.css";
 import createGlobe from "cobe";
 import { useEffect, useRef } from "react";
 
 // https://github.com/shuding/cobe
 
-export const GlobeMobile = () => {
+export default function GlobeMobile() {
   const canvasRef = useRef();
 
   useEffect(() => {
     let phi = 0;
 
     const globe = createGlobe(canvasRef.current, {
-      devicePixelRatio: 2,
-      width: 400 * 2,
-      height: 400 * 2,
+      devicePixelRatio: 1,
+      width: 400,
+      height: 400,
       phi: 0,
       theta: 0,
-      dark: 2,
+      dark: 5,
       diffuse: 1.2,
-      mapSamples: 4000,
+      mapSamples: 3000,
       mapBrightness: 6,
       baseColor: [0.3, 0.3, 0.3],
       markerColor: [0.1, 0.8, 1],
@@ -41,11 +42,27 @@ export const GlobeMobile = () => {
   }, []);
 
   return (
-    <div className="grid justify-center  items-center text-center">
-      <canvas
-        ref={canvasRef}
-        style={{ width: 400, height: 400, maxWidth: "100%", aspectRatio: 1 }}
-      />
+    <div
+      data-aos="zoom-in-up"
+      className="bg-orange-600 text-center text-white mt-16 rounded-xl mx-1"
+    >
+      <h1 className="text-5xl pt-8 font-bold">Our Mission</h1>
+      <p className="text-xl mt-8 w-8/12 mx-auto">
+        Equipage businesses with value-driven goals and excel across all
+        ventures. Also, provide maximum satisfaction to our consumers with a
+        high standard of products and services. And be a part of social
+        development.
+        {/* <a href="https://github.com/shuding/cobe" target="_blank">
+          GitHub
+        </a> */}
+      </p>
+      <div className="grid justify-center items-center">
+        {" "}
+        <canvas
+          ref={canvasRef}
+          style={{ width: 400, height: 400, maxWidth: "100%", aspectRatio: 1 }}
+        />
+      </div>
     </div>
   );
-};
+}

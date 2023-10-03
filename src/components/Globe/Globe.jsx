@@ -44,7 +44,7 @@ export default function Globe() {
   return (
     <div
       data-aos="zoom-in-up"
-      className="bg-orange-600 text-center text-white mt-16 rounded-xl hidden md:block"
+      className="bg-orange-600 text-center text-white mt-16 rounded-xl "
     >
       <h1 className="text-5xl pt-8 font-bold">Our Mission</h1>
       <p className="text-xl mt-8 w-8/12 mx-auto">
@@ -52,9 +52,7 @@ export default function Globe() {
         ventures. Also, provide maximum satisfaction to our consumers with a
         high standard of products and services. And be a part of social
         development.
-        {/* <a href="https://github.com/shuding/cobe" target="_blank">
-          GitHub
-        </a> */}
+     
       </p>
       <div className="grid justify-center items-center">
         {" "}
