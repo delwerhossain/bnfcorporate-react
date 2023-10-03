@@ -200,7 +200,7 @@ const Header = () => {
                 Team
               </a>
               <Link
-               to={'contact'}
+                to={"contact"}
                 className="text-base font-medium bg-orange-100 p-0.5 px-2 rounded-2xl text-gray-500 hover:text-gray-900"
               >
                 Contact
@@ -604,12 +604,12 @@ const Header = () => {
                 >
                   Team
                 </a>
-                <a
-                  href="#contact"
+                <Link
+                  to="/contact"
                   className="btn btn-warning text-base font-medium text-gray-900 hover:text-gray-700"
                 >
                   Contact
-                </a>
+                </Link>
               </div>
             </div>
           </div>

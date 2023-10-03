@@ -575,30 +575,31 @@ const NavCon = () => {
             </div>
             <div className="py-6 px-5  space-y-6">
               <div className="grid grid-cols-2  gap-y-4 p-3 gap-x-8">
-                <a
-                  href="#home"
+                <Link
+                  to="/"
                   className="text-base font-medium btn btn-warning text-gray-900 hover:text-gray-700"
                 >
                   Home
-                </a>
-                <a
-                  href="#ourBrand"
+                </Link>
+
+                <Link
+                  to="/"
                   className="btn btn-warning text-base font-medium text-gray-900 hover:text-gray-700"
                 >
                   Brand
-                </a>
-                <a
-                  href="#cit"
+                </Link>
+                <Link
+                  to="/"
                   className="btn btn-warning text-base font-medium text-gray-900 hover:text-gray-700"
                 >
                   Team
-                </a>
-                <a
-                  href="#contact"
+                </Link>
+                <Link
+                  to="/contact"
                   className="btn btn-warning text-base font-medium text-gray-900 hover:text-gray-700"
                 >
                   Contact
-                </a>
+                </Link>
               </div>
             </div>
           </div>
