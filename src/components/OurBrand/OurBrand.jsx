@@ -55,7 +55,7 @@ const OurBrand = () => {
             <div key={index}>
               {" "}
               <img
-                className="xl:h-60 xl:w-60 w-40 mr-8 rounded-full xl:border-4 border-2 border-orange-600"
+                className="xl:h-60 xl:w-60 w-40 h-40 mr-8 rounded-full xl:border-4 border-2 border-orange-600"
                 src={data?.src}
                 alt={data?.alt}
               />{" "}
