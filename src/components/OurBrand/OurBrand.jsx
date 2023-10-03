@@ -1,3 +1,4 @@
+import Cobe from "../Globe/Cobe";
 import Globe from "../Globe/Globe";
 import GlobeMobile from "../Globe/GlobeMobile";
 
@@ -55,7 +56,8 @@ const OurBrand = () => {
         </div>
       </div>
       {/* global   */}
-      <div>
+      <Cobe/>
+      {/* <div className="hidden">
         <div className="hidden lg:block">
           {" "}
           <Globe />
@@ -64,7 +66,7 @@ const OurBrand = () => {
           {" "}
           <GlobeMobile />
         </div>
-      </div>
+      </div> */}
       <div className="mt-12">
         <img
           className=" rounded-xl border border-orange-600 md:w-full w-11/12 mx-auto"
