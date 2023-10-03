@@ -261,6 +261,7 @@ const Header = () => {
                       <div className="flow-root">
                         <a
                           href="https://www.youtube.com/watch?v=Wo-v5AGm5qk&t=9s"
+                          rel="noreferrer"
                           target="_blank"
                           className="-m-3 p-3 flex items-center rounded-md text-base font-medium text-gray-900 hover:bg-gray-100"
                         >
