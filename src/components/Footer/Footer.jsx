@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="sm:flex sm:flex-wrap sm:-mx-4 md:py-4">
           <div className="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6">
-            <h5 className="text-xl font-bold mb-6">Features</h5>
+            <h5 className="text-xl font-bold mb-6">Ours Bands </h5>
             <ul className="list-none footer-links">
               <li className="mb-2">
                 <a
@@ -65,7 +65,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 sm:mt-0">
+          {/* <div className="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 sm:mt-0">
             <h5 className="text-xl font-bold mb-6">Resources</h5>
             <ul className="list-none footer-links">
               <li className="mb-2">
@@ -101,7 +101,7 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
           <div className="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 md:mt-0">
             <h5 className="text-xl font-bold mb-6">Menu</h5>
             <ul className="list-none footer-links">
@@ -221,7 +221,7 @@ const Footer = () => {
                 <BiMailSend color="#FF6020 " size={22} />
               </div>{" "}
               <strong className="mr-1">Email :</strong>{" "}
-              <a href="mail:info@bnfcorporate.com">info@bnfcorporate.com</a>
+              <a href="mailto:info@bnfcorporate.com">info@bnfcorporate.com</a>
             </div>
           </div>
           <div className="px-4 sm:w-1/2 md:w-2/4 mt-4 md:mt-0">

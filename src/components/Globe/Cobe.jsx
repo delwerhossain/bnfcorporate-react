@@ -59,7 +59,7 @@ function Cobe() {
 
   return (
     <div
-      className="bg-orange-600 text-center text-white mt-16 rounded-xl "
+      className="mx-1.5 lg:mx-0 bg-orange-600 text-center text-white mt-16 rounded-xl "
     >
       <h1 className="text-5xl pt-8 font-bold">Our Mission</h1>
       <p className="text-xl mt-8 w-8/12 mx-auto">
