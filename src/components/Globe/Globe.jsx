@@ -11,14 +11,14 @@ export default function Globe() {
     let phi = 0;
 
     const globe = createGlobe(canvasRef.current, {
-      devicePixelRatio: 2,
-      width: 600 * 2,
-      height: 600 * 2,
+      devicePixelRatio: 1,
+      width: 500,
+      height: 500,
       phi: 0,
       theta: 0,
       dark: 5,
       diffuse: 1.2,
-      mapSamples: 4000,
+      mapSamples: 3000,
       mapBrightness: 6,
       baseColor: [0.3, 0.3, 0.3],
       markerColor: [0.1, 0.8, 1],
@@ -60,7 +60,7 @@ export default function Globe() {
         {" "}
         <canvas
           ref={canvasRef}
-          style={{ width: 600, height: 600, maxWidth: "100%", aspectRatio: 1 }}
+          style={{ width: 500, height: 500, maxWidth: "100%", aspectRatio: 1 }}
         />
       </div>
     </div>
