@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav data-aos="flip-up" className="grid gap-y-8">
@@ -198,12 +199,12 @@ const Header = () => {
               >
                 Team
               </a>
-              <a
-                href="#contact"
+              <Link
+               to={'contact'}
                 className="text-base font-medium text-gray-500 hover:text-gray-900"
               >
                 Contact
-              </a>
+              </Link>
               <div className="relative">
                 {/* Item active: "text-gray-900", Item inactive: "text-gray-500" */}
                 <button

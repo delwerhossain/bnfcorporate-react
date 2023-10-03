@@ -1,5 +1,5 @@
 import Cit from "./components/Cit/Cit";
-import ContactSection from "./components/ContactSection/ContactSection";
+// import ContactSection from "./components/ContactSection/ContactSection";
 import HeroSection from "./components/HeroSection/HeroSection";
 import ManageTeam from "./components/ManageTeam/ManageTeam";
 import OurBrand from "./components/OurBrand/OurBrand";
@@ -19,7 +19,7 @@ const App = () => {
           <OurBrand />
           <Cit />
           <ManageTeam />
-          <ContactSection />
+          {/* <ContactSection /> */}
           {/* <LandingPage/> */}
         </main>
       </>
