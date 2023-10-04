@@ -50,12 +50,12 @@ const OurBrand = () => {
         <span className="w-full border-b-2 border-solid border-orange-600 inline-block mt-3"></span>
       </h1>
       <Marquee autoFill={true} pauseOnHover={true} speed={70}>
-        <div className="flex    mx-auto justify-center w-4/5 lg:w-full ">
+        <div className="flex    mx-auto justify-center w-full ">
           {brandData.map((data, index) => (
             <div key={index}>
               {" "}
               <img
-                className="xl:h-60 xl:w-60 w-40 h-40 mr-8 rounded-full xl:border-4 border-2 border-orange-600"
+                className="xl:h-52 xl:w-52 w-40 h-40 mr-8 rounded-full xl:border-4 border-2 border-orange-600"
                 src={data?.src}
                 alt={data?.alt}
               />{" "}
