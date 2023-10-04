@@ -7,34 +7,38 @@ const brandData = [
   {
     src: "/image/care.webp",
     alt: "B&F Care ",
+    link : "https://care.thebandf.com/",
   },
   {
     src: "/image/it.webp",
     alt: "IT Sohor ",
+    link : "https://itsohor.com/",
   },
   {
     src: "/image/pro.webp",
     alt: "B&F Properties ",
+    link : "https://properties.thebandf.com/",
   },
   {
     src: "/image/call.webp",
     alt: "B&F Call Center",
+    link : "https://call.thebandf.com/",
   },
   {
     src: "/image/CS.webp",
-    alt: "B&F Call Center",
+    alt: "B&F Customer Service",
   },
   {
     src: "/image/dataA.png",
-    alt: "B&F Call Center",
+    alt: "B&F Data Analytics",
   },
   {
     src: "/image/teleM.jpg",
-    alt: "B&F Call Center",
+    alt: "B&F Tele Marketing",
   },
   {
     src: "/image/rnd.jpg",
-    alt: "B&F Call Center",
+    alt: "B&F R & D",
   },
 ];
 
@@ -46,7 +50,7 @@ const OurBrand = () => {
       className="bg-white lg:mt-28 mb-20"
     >
       <h1 className="md:text-5xl text-slate-700 text-3xl font-extrabold text-center grid grid-col-1 justify-center my-12 ">
-        Our Service
+        Our Services
         <span className="w-full border-b-2 border-solid border-orange-600 inline-block mt-3"></span>
       </h1>
       <Marquee autoFill={true} pauseOnHover={true} speed={70}>
