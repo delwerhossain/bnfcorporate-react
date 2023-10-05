@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { BsFacebook } from "react-icons/bs";
+import { BsFacebook, BsYoutube } from "react-icons/bs";
 import { MdEditLocationAlt } from "react-icons/md";
 import { BiMailSend } from "react-icons/bi";
 import {AiOutlinePhone, AiFillTwitterCircle, AiFillLinkedin } from "react-icons/ai";
@@ -12,7 +12,7 @@ const Footer = () => {
     >
       <div className="container mx-auto px-4">
         <div className="sm:flex sm:flex-wrap sm:-mx-4 md:py-4">
-          <div className="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6">
+          {/* <div className="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6">
             <h5 className="text-xl font-bold mb-6">Ours Bands </h5>
             <ul className="list-none footer-links">
               <li className="mb-2">
@@ -64,7 +64,7 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
           {/* <div className="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 sm:mt-0">
             <h5 className="text-xl font-bold mb-6">Resources</h5>
             <ul className="list-none footer-links">
@@ -102,7 +102,7 @@ const Footer = () => {
               </li>
             </ul>
           </div> */}
-          <div className="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 md:mt-0">
+          <div className="px-4 sm:w-1/2 md:w-1/4 xl:w-1/5 mt-8 md:mt-0">
             <h5 className="text-xl font-bold mb-6">Menu</h5>
             <ul className="list-none footer-links">
               <li className="mb-2">
@@ -139,7 +139,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 md:mt-0">
+          <div className="px-4 sm:w-1/2 md:w-1/4 xl:w-1/5 mt-8 md:mt-0">
             <h5 className="text-xl font-bold mb-6">Help</h5>
             <ul className="list-none footer-links">
               <li className="mb-2">
@@ -168,7 +168,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="px-4 mt-4 sm:w-1/3 xl:w-1/6 sm:mx-auto xl:mt-0 xl:ml-auto">
+          <div className="px-4 mt-4 sm:w-1/3 xl:w-1/5 sm:mx-auto xl:mt-0 xl:ml-auto">
             <h5 className="text-xl font-bold mb-6 sm:text-center xl:text-left">
               Stay connected
             </h5>
@@ -181,6 +181,16 @@ const Footer = () => {
               >
                 <div className="bg-white rounded-full  hover:bg-blue-300">
                   <BsFacebook color="#4267B2" size={32} />
+                </div>
+              </a>
+              <a
+                href="https://www.youtube.com/@BnFcorporate"
+                target="_blank"
+                rel="noreferrer"
+                className="w-8 h-8 border-2  border-gray-400 rounded-full text-center py-1 text-white hover:text-white"
+              >
+                <div className="bg-white rounded-full  hover:bg-blue-300">
+                  <BsYoutube className=" p-1" color="red" size={32} />
                 </div>
               </a>
               <a
@@ -205,10 +215,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-        </div>
-
-        <div className=" sm:flex sm:flex-wrap sm:-mx-4 mt-6 pt-6 sm:mt-12 sm:pt-12 border-t text-xl">
-          <div className="sm:w-full px-4 md:w-2/6">
+          <div className="sm:w-full px-4 md:w-1/4 xl:w-1/5">
             <div className="flex">
               <div className="bg-orange-100 p-0.5 mr-1 rounded-full">
                 <AiOutlinePhone color="#FF6020 " size={22} />
@@ -224,7 +231,7 @@ const Footer = () => {
               <a href="mailto:info@bnfcorporate.com">info@bnfcorporate.com</a>
             </div>
           </div>
-          <div className="px-4 sm:w-1/2 md:w-2/4 mt-4 md:mt-0">
+          <div className="px-4 sm:w-1/2 md:w-2/4  xl:w-1/5 mt-4 md:mt-0">
             <div className="flex">
               {" "}
               <div className="bg-orange-100 p-0.5 w-7 h-7 mr-1 rounded-full">
@@ -238,6 +245,9 @@ const Footer = () => {
               Leicester, LE7 1NS.
             </address>
           </div>
+        </div>
+
+        <div className=" sm:flex sm:flex-wrap sm:-mx-4 mt-6 pt-6 sm:mt-12 sm:pt-12 border-t text-xl">
           {/* <div className="px-4 sm:w-1/2 md:w-1/4 mt-4 md:mt-0">
             <h6 className="font-bold mb-2">Free Resources</h6>
             <p className="mb-4 text-sm">
