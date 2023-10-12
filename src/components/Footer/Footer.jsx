@@ -174,7 +174,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="px-4 mt-4 sm:w-1/3 xl:w-1/5 sm:mx-auto xl:mt-0 xl:ml-auto">
+          <div className="px-4 mt-4 sm:w-1/3 xl:w-1/5 sm:mx-auto xl:mt-0 xl:ml-auto mb-4 lg:mb-0">
             <h5 className="text-xl font-bold mb-6 sm:text-center xl:text-left">
               Stay connected
             </h5>
@@ -229,7 +229,7 @@ const Footer = () => {
               <strong className="mr-1"> Phone:</strong>{" "}
               <a href="tel:03301 130 458"> +03301 130 458</a> <br />
             </div>
-            <div className="flex mt-10">
+            <div className="flex mt-4 xl:mt-10">
               <div className="bg-orange-100 p-0.5 mr-1 rounded-full">
                 <BiMailSend color="#FF6020 " size={22} />
               </div>{" "}
