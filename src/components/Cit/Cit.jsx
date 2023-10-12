@@ -6,7 +6,7 @@ const Cit = () => {
     <div
       data-aos-delay="300"
       data-aos-duration="2000"
-      data-aos="fade-left"
+      data-aos="flip-left"
       id="cit"
       className=""
     >
