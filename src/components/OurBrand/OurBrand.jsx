@@ -7,25 +7,25 @@ const brandData = [
   {
     src: "/image/care.webp",
     alt: "B&F Care ",
-    link : "https://care.thebandf.com/",
+    link: "https://care.thebandf.com/",
   },
   {
     src: "/image/it.webp",
     alt: "IT Sohor ",
-    link : "https://itsohor.com/",
+    link: "https://itsohor.com/",
   },
   {
     src: "/image/pro.webp",
     alt: "B&F Properties ",
-    link : "https://properties.thebandf.com/",
+    link: "https://properties.thebandf.com/",
   },
   {
     src: "/image/call.webp",
     alt: "B&F Call Center",
-    link : "https://call.thebandf.com/",
+    link: "https://call.thebandf.com/",
   },
   {
-    src: "/image/CS.webp",
+    src: "/image/cs.jpg",
     alt: "B&F Customer Service",
   },
   {
