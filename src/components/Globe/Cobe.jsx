@@ -33,7 +33,7 @@ function Cobe() {
       theta: 0,
       dark: 3,
       diffuse: 1.2,
-      mapSamples: 10000,
+      mapSamples: 6000,
       mapBrightness: 8,
       baseColor: [0.3, 0.3, 0.3],
       markerColor: [0.1, 0.8, 1],
