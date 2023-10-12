@@ -17,8 +17,9 @@ const HeroSection = () => {
   // }, []);
   return (
     <section
-      data-aos="fade-up"
+      data-aos-delay="300"
       data-aos-duration="2000"
+      data-aos="fade-up"
       id="home"
       className=" md:py-5 bg-neutral-100 lg:py-10"
     >

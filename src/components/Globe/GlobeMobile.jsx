@@ -43,6 +43,8 @@ export default function GlobeMobile() {
 
   return (
     <div
+      data-aos-delay="300"
+      data-aos-duration="2000"
       data-aos="zoom-in-up"
       className="bg-orange-600 text-center text-white mt-16 rounded-xl mx-1"
     >

@@ -2,7 +2,12 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
-    <nav data-aos="flip-up" className="grid gap-y-8">
+    <nav
+      data-aos-delay="300"
+      data-aos-duration="2000"
+      data-aos="flip-up"
+      className="grid gap-y-8"
+    >
       <a
         href="https://care.thebandf.com/"
         target="_blank"

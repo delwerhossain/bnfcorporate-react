@@ -45,6 +45,8 @@ const brandData = [
 const OurBrand = () => {
   return (
     <div
+      data-aos-delay="300"
+      data-aos-duration="2000"
       data-aos="fade-right"
       id="ourBrand"
       className="bg-white lg:mt-28 mb-20"
@@ -80,7 +82,12 @@ const OurBrand = () => {
           <GlobeMobile />
         </div>
       </div> */}
-      <div className="mt-12">
+      <div
+        data-aos-delay="400"
+        data-aos-duration="4000"
+        data-aos="slide-up"
+        className="mt-12"
+      >
         <img
           className=" rounded-xl border border-orange-600 md:w-full w-11/12 mx-auto"
           src="/image/about.jpeg"

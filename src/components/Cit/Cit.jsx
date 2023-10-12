@@ -3,7 +3,13 @@ import { LuTarget } from "react-icons/lu";
 
 const Cit = () => {
   return (
-    <div data-aos="fade-left" id="cit" className="">
+    <div
+      data-aos-delay="300"
+      data-aos-duration="2000"
+      data-aos="fade-left"
+      id="cit"
+      className=""
+    >
       <div className="mx-auto text-center">
         <h3 className="bg-blue-50 text-orange-600 py-2 lg:w-1/5 w-3/5 mx-auto text-center font-bold lg:my-8 my-8 rounded-2xl ">
           ASSOCIATED WITH

@@ -2,11 +2,17 @@ import { Link } from "react-router-dom";
 import { BsFacebook, BsYoutube } from "react-icons/bs";
 import { MdEditLocationAlt } from "react-icons/md";
 import { BiMailSend } from "react-icons/bi";
-import {AiOutlinePhone, AiFillTwitterCircle, AiFillLinkedin } from "react-icons/ai";
+import {
+  AiOutlinePhone,
+  AiFillTwitterCircle,
+  AiFillLinkedin,
+} from "react-icons/ai";
 
 const Footer = () => {
   return (
     <footer
+      data-aos-delay="300"
+      data-aos-duration="2000"
       data-aos="fade-up"
       className="footer-1 text-white bg-orange-600 py-8 sm:py-12"
     >

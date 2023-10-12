@@ -4,7 +4,13 @@ import { BiLogoGmail } from "react-icons/bi";
 
 const ContactSection = () => {
   return (
-    <div data-aos="fade-up-left" id="contact" className="my-28">
+    <div
+      data-aos-delay="300"
+      data-aos-duration="2000"
+      data-aos="fade-up-left"
+      id="contact"
+      className="my-28"
+    >
       {/* heading */}
       <div>
         {" "}
