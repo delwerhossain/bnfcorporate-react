@@ -45,7 +45,7 @@ export default function GlobeMobile() {
     <div
       data-aos-delay="300"
       data-aos-duration="2000"
-      data-aos="zoom-in-up"
+      data-aos="flip-left"
       className="bg-orange-600 text-center text-white mt-16 rounded-xl mx-1"
     >
       <h1 className="text-5xl pt-8 font-bold">Our Mission</h1>

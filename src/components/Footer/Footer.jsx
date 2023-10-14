@@ -253,7 +253,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className=" sm:flex sm:flex-wrap sm:-mx-4 mt-6 pt-6 sm:mt-12 sm:pt-12 border-t text-xl">
+        <div className=" sm:flex sm:flex-wrap sm:-mx-4 mt-6 pt-6 sm:mt-12 sm:pt-12 border-t text-xl justify-center items-center">
           {/* <div className="px-4 sm:w-1/2 md:w-1/4 mt-4 md:mt-0">
             <h6 className="font-bold mb-2">Free Resources</h6>
             <p className="mb-4 text-sm">

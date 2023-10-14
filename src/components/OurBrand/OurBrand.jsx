@@ -83,9 +83,9 @@ const OurBrand = () => {
         </div>
       </div> */}
       <div
-        data-aos-delay="400"
-        data-aos-duration="4000"
-        data-aos="slide-up"
+        data-aos-delay="200"
+        data-aos-duration="2000"
+        data-aos="flip-right"
         className="mt-12"
       >
         <img
