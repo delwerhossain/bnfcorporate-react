@@ -2,6 +2,7 @@ import { Outlet, useLocation } from "react-router-dom";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import NavCon from "../components/NavCon/NavCon";
+import './Main.css'; // Import your CSS file
 
 const Main = () => {
   const { pathname } = useLocation();
